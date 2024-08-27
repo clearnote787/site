@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from www.captermoney.com/service.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 27 Aug 2024 05:19:15 GMT -->
+<head>
+    <meta charset="utf-8">
+    <title>CapterMoney|Service</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&amp;family=Open+Sans:wght@400;500&amp;display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="../cdn.jsdelivr.net/npm/bootstrap-icons%401.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<style>
+    section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 80px 0 0;
+}
+section > p {
+  text-align: center;
+
+}
+
+section .cards {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin-top: 50px;
+  padding: 0 10px;
+  justify-content: space-between;
+}
+
+section .cards .card {
+  background: white;
+  padding: 30px 10px;
+  list-style: none;
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04);
+  margin-bottom: 40px;
+  width: calc(100% / 3 - 30px);
+  text-align: center;
+}
+
+.services .card img {
+  width: 90%;
+  height: 200px;
+  margin-bottom: 10px;
+  border-radius: 10%;
+
+}
+
+.services .serv-content .card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+.cards .card p {
+  padding: 0 15px;
+  margin-top: 5px;
+  color: #000;
+}
+.cards .card h3{
+    color: white;
+    background:#FF3131;
+}
+
+
+
+@media screen and (max-width: 860px) {
+  .navbar .all-links {
+    position: fixed;
+    left: -100%;
+    width: 300px;
+    display: block;
+    height: 100vh;
+    top: 75px;
+    background: #333;
+    transition: left 0.3s ease;
+  }
+
+  .navbar #menu-toggler:checked~.all-links {
+    left: 0;
+  }
+
+  .navbar .all-links li {
+    font-size: 18px;
+  }
+
+  .navbar #hamburger-btn {
+    display: block;
+  }
+
+  section > p {
+    text-align: center;
+  }
+
+  section .cards .card {
+    width: calc(100% / 2 - 15px);
+    margin-bottom: 30px;
+  }
+
+  
+  .homepage .content .text {
+    font-size: 17px;
+  }
+
+  .content a {
+    font-size: 16px;
+    padding: 9px 20px;
+  }
+
+  .contact .row {
+    flex-direction: column;
+  }
+
+  .contact .row .col {
+    width: 100%;
+  }
+
+  .contact .row .col:last-child {
+    margin-top: 40px;
+  }
+  .homepage {
+    height: 125px;
+    width: 100%;
+    position: relative;
+    margin-top: 68px;
+    background-size: cover;
+}
+.homepage .content .text{
+  display: none;
+}
+
+section .cards .card {
+  background: white;
+  padding: 30px 10px;
+  list-style: none;
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04);
+  margin-bottom: 40px;
+  width: calc(100% / 3 - 30px);
+  text-align: center;
+}
+
+.services .card img {
+  width: 60%;
+  height: 120px;
+  margin-bottom: 5px;
+  border-radius: 10%;
+
+}
+}
+
+@media screen and (max-width: 560px) {
+  section .cards .card {
+    width: 100%;
+    margin-bottom: 30px;
+    align-items: center;
+  }
+}
+
+
+</style>
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
+        <div class="top-bar row gx-0 align-items-center d-none d-lg-flex">
+            <div class="col-lg-6 px-5 text-start">
+                <small><i class="fa fa-map-marker-alt text-primary me-2"></i>G-70, Second Floor,
+                    Sector 63 Noida-201301</small>
+                <small class="ms-4"><i class="fa fa-clock text-primary me-2"></i>9.00 am - 10.00 pm</small>
+            </div>
+            <div class="col-lg-6 px-5 text-end">
+                <small><i class="fa fa-envelope text-primary me-2"></i>captermoney067@gmail.com</small>
+                <small class="ms-4"><i class="fa fa-phone-alt text-primary me-2"></i>+91 9827072180</small>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+            <a href="index-2.html" class="navbar-brand ms-4 ms-lg-0">
+                <h1 class="display-5 text-primary m-0"><img src="img/logo1.png" width="80px"></h1>
+            </a>
+            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="index-2.html" class="nav-item nav-link ">Home</a>
+                    <a href="about.html" class="nav-item nav-link ">About</a>
+                    <a href="service.html" class="nav-item nav-link active">Services</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                        <div class="dropdown-menu border-light m-0">
+                           
+                            <a href="Disclaimer.html" class="dropdown-item">Disclaimer</a>
+                            <a href="privcacy_policy.html" class="dropdown-item">privcacy policy</a>
+                            <a href="terms.html" class="dropdown-item">Terms & Conditions</a>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    <a href="# " target="_blank"  class="nav-item nav-link"><button style="border: 1px solid red; border-radius: 5px; background:#FF3131; color: white;"> </button></a>
+                </div>
+
+                <!-- <a> <button style="border: 1px solid red; border-radius: 5px;"> </button></a> -->
+
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header mb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container">
+            <h1 class="display-3 mb-4 animated slideInDown">Services</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb mb-0">
+                    <li class="breadcrumb-item"><a href="index-2.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Services</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+
+    <!-- Service Start -->
+    <div class="container-xxl service py-5">
+       
+           
+      <section class="services" id="services">
+        <h2>Our Services</h2>
+        <!-- <p>Explore our wide range of camping gear services.</p> -->
+        <ul class="cards">
+          <li class="card">
+            <img src="img/bbps.png" alt="img">
+            <h3>Bill Payment (BBPS)</h3>
+            <p>Capter Money enables its Retailers to accept payments for all utility bills such as water, electricity, Gas, and Broadband through the Bharat Bill Payment System (BBPS).</p>
+          </li>
+          <!-- <li class="card">
+            <img src="img/Aepsservice.webp" alt="img">
+            <h3>Aadhar Banking (AePS)</h3>
+            <p>The Capter Money AePS service enables the customer to use their Aadhaar card to access their Aadhaar-linked bank account and carry out basic banking transactions like withdrawals, deposits, balance enquiry, and bank transfers.</p>
+          </li> -->
+          <li class="card">
+            <img src="img/recharge.png" alt="img">
+            <h3>Mobile & DTH Recharge</h3>
+            <p>Capter Money Retailers can now get the mobile phones and DTH services recharged for their customers and earn attractive commission on every transaction.</p>
+          </li>
+          <!-- <li class="card">
+            <img src="img/Micro ATM.jpg" alt="img">
+            <h3>Micro ATM</h3>
+            <p>With the Capter Money Micro ATM, a local Kirana store can now become an ATM center providing basic ATM services such as cash withdrawal and deposits. 
+                The Capter Money Micro ATMs accept all major debit cards.</p>
+          </li>
+          <li class="card">
+            <img src="img/suv-travel.jpg" alt="img">
+            <h3>Tour & Travels</h3>
+            <p>Capter Money provides a gamut of tours and travel services including flight/train/bus tickets and hotel booking – all under one roof.</p>
+          </li>
+          <li class="card">
+            <img src="img/" alt="img">
+            <h3>Pan Card</h3>
+            <p>Capter Money enables its Retailers to accept payments for all utility bills such as water, electricity, Gas, and Broadband through the Bharat Bill Payment System (BBPS).</p>
+          </li> -->
+        </ul>
+      </section>     
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Callback Start -->
+    
+    <!-- <div class="container-fluid callback mt-5 py-5">
+        <div class="container pt-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
+                    <div class="bg-white border rounded p-4 p-sm-5 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                            <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">Get In Touch</p>
+                            <h1 class="display-5 mb-5">Request A Call-Back</h1>
+                        </div>
+                        <div class="row g-3">
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                    <label for="name">Your Name</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="mail" placeholder="Your Email">
+                                    <label for="mail">Your Email</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="mobile" placeholder="Your Mobile">
+                                    <label for="mobile">Your Mobile</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                    <label for="subject">Subject</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
+                                    <label for="message">Message</label>
+                                </div>
+                            </div>
+                            <div class="col-12 text-center">
+                                <button class="btn btn-primary w-100 py-3" type="submit">Submit Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Callback End -->
+        
+
+      <!-- Footer Start -->
+      <div class="container-fluid bg-dark text-light footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-4">CapterMoney Solutions Pvt Ltd.</h4>
+                    <p>We are locally based and understand the needs of our customers, their operating environments, and
+                        the unique features of each institution.</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-4">Address</h4>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 9827072180</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>captermoney067@gmail.com</p>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>G-70, Second Floor,Sector 63 Noida-201301
+                    </p>
+
+                    <!-- <a class="btn btn-link" href="">Financial Consultancy</a>
+                    <a class="btn btn-link" href="">Business Loans</a>
+                    <a class="btn btn-link" href="">Business Analysis</a> -->
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-4">Quick Links</h4>
+                    <a class="btn btn-link" href="about.html">About Us</a>
+                    <a class="btn btn-link" href="contact.html">Contact Us</a>
+                    <a class="btn btn-link" href="terms.html">Terms & Condition</a>
+                    <a class="btn btn-link" href="privcacy_policy.html">Privacy Policy</a>
+                    <a class="btn btn-link" href="refundpolicy.html">Refund Policy</a>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; Copyright 2022-24 CapterMoney.</a>| All Right Reserved.
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top">
+        <i class="bi bi-hand-index-thumb"></i> </a>
+
+    <script async src='../d2mpatx37cqexb.cloudfront.net/delightchat-whatsapp-widget/embeds/embed.min.js'></script>
+    <script>
+        var wa_btnSetting = { "btnColor": "#16BE45", "ctaText": "Chat us", "cornerRadius": "50", "marginBottom": "20", "marginLeft": 20, "marginRight": 20, "btnPosition": "left", "whatsAppNumber": "9827072180", "welcomeMessage": "Hii..Welcome to CaperMoney", "zIndex": 999999, "btnColorScheme": "light" };
+        window.onload = () => {
+            _waEmbed(wa_btnSetting);
+        };
+    </script>
+
+    <!-- JavaScript Libraries -->
+    <script src="../code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="../cdn.jsdelivr.net/npm/bootstrap%405.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+
+<!-- Mirrored from www.captermoney.com/service.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 27 Aug 2024 05:19:15 GMT -->
+</html>
